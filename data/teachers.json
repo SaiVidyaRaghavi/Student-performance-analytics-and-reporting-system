@@ -1,0 +1,320 @@
+[
+  {
+    "id": "t001",
+    "name": "Anita Rao",
+    "email": "anitarao.43@school.org",
+    "role": "teacher",
+    "subjects": [
+      "English",
+      "Database Systems"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-01",
+      "MEC-02",
+      "MEC-04",
+      "CIV-01",
+      "CIV-03"
+    ],
+    "username": "t001",
+    "password": "teach001"
+  },
+  {
+    "id": "t002",
+    "name": "Ravi Kumar",
+    "email": "ravikumar.74@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Biology",
+      "Thermodynamics",
+      "Database Systems",
+      "Physics"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-01",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-01",
+      "CIV-02",
+      "CIV-03",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t002",
+    "password": "teach002"
+  },
+  {
+    "id": "t003",
+    "name": "Leela Sharma",
+    "email": "leelasharma.54@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Engineering Drawing",
+      "Signals and Systems"
+    ],
+    "classes": [
+      "COM-03",
+      "COM-04",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "MEC-01",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-01",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t003",
+    "password": "teach003"
+  },
+  {
+    "id": "t004",
+    "name": "Suresh Nair",
+    "email": "sureshnair.91@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Mathematics",
+      "Biology"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-05",
+      "MEC-03",
+      "MEC-04",
+      "CIV-03",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t004",
+    "password": "teach004"
+  },
+  {
+    "id": "t005",
+    "name": "Kiran Patel",
+    "email": "kiranpatel.55@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Biology",
+      "Signals and Systems",
+      "Physics",
+      "Thermodynamics"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-01",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-01",
+      "CIV-02",
+      "CIV-03",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t005",
+    "password": "teach005"
+  },
+  {
+    "id": "t006",
+    "name": "Priya Menon",
+    "email": "priyamenon.41@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Chemistry",
+      "Biology",
+      "Mathematics"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-02",
+      "CIV-03",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t006",
+    "password": "teach006"
+  },
+  {
+    "id": "t007",
+    "name": "Arjun Das",
+    "email": "arjundas.3@school.org",
+    "role": "teacher",
+    "subjects": [
+      "English",
+      "Chemistry"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-01",
+      "MEC-02",
+      "MEC-03",
+      "MEC-05",
+      "CIV-02",
+      "CIV-03",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t007",
+    "password": "teach007"
+  },
+  {
+    "id": "t008",
+    "name": "Meera Iyer",
+    "email": "meeraiyer.26@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Engineering Drawing",
+      "Database Systems",
+      "Computer Networks",
+      "Mathematics"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-01",
+      "CIV-02",
+      "CIV-03",
+      "CIV-05"
+    ],
+    "username": "t008",
+    "password": "teach008"
+  },
+  {
+    "id": "t009",
+    "name": "Vikram Singh",
+    "email": "vikramsingh.37@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Thermodynamics",
+      "Digital Electronics",
+      "Signals and Systems"
+    ],
+    "classes": [
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-01",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-01",
+      "CIV-02",
+      "CIV-03",
+      "CIV-04",
+      "CIV-05"
+    ],
+    "username": "t009",
+    "password": "teach009"
+  },
+  {
+    "id": "t010",
+    "name": "Nivedita Bose",
+    "email": "niveditabose.43@school.org",
+    "role": "teacher",
+    "subjects": [
+      "Computer Programming",
+      "Computer Networks",
+      "Mathematics"
+    ],
+    "classes": [
+      "COM-01",
+      "COM-02",
+      "COM-03",
+      "COM-04",
+      "COM-05",
+      "ELE-01",
+      "ELE-02",
+      "ELE-03",
+      "ELE-04",
+      "ELE-05",
+      "MEC-02",
+      "MEC-03",
+      "MEC-04",
+      "MEC-05",
+      "CIV-01",
+      "CIV-02",
+      "CIV-03",
+      "CIV-05"
+    ],
+    "username": "t010",
+    "password": "teach010"
+  }
+]

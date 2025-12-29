@@ -1,0 +1,382 @@
+[
+  {
+    "id": "s001",
+    "name": "Rohan Kumar",
+    "roll": "COM-01",
+    "departmentId": "d_cs",
+    "department": "Computer Science",
+    "section": "A",
+    "dob": "2008-12-20",
+    "subjects": [
+      "Mathematics",
+      "English",
+      "Computer Networks",
+      "Chemistry",
+      "Computer Programming",
+      "Physics"
+    ],
+    "username": "COM-01",
+    "password": "stud001"
+  },
+  {
+    "id": "s002",
+    "name": "Siddharth Iyer",
+    "roll": "COM-02",
+    "departmentId": "d_cs",
+    "department": "Computer Science",
+    "section": "B",
+    "dob": "2008-08-07",
+    "subjects": [
+      "Chemistry",
+      "Computer Programming",
+      "Computer Networks",
+      "Thermodynamics",
+      "Data Structures",
+      "English"
+    ],
+    "username": "COM-02",
+    "password": "stud002"
+  },
+  {
+    "id": "s003",
+    "name": "Ananya Menon",
+    "roll": "COM-03",
+    "departmentId": "d_cs",
+    "department": "Computer Science",
+    "section": "C",
+    "dob": "2008-01-24",
+    "subjects": [
+      "Thermodynamics",
+      "Computer Programming",
+      "Signals and Systems",
+      "English",
+      "Biology",
+      "Data Structures"
+    ],
+    "username": "COM-03",
+    "password": "stud003"
+  },
+  {
+    "id": "s004",
+    "name": "Lakshmi Gupta",
+    "roll": "COM-04",
+    "departmentId": "d_cs",
+    "department": "Computer Science",
+    "section": "A",
+    "dob": "2008-02-22",
+    "subjects": [
+      "Computer Programming",
+      "Signals and Systems",
+      "Database Systems",
+      "Chemistry",
+      "Biology",
+      "Data Structures"
+    ],
+    "username": "COM-04",
+    "password": "stud004"
+  },
+  {
+    "id": "s005",
+    "name": "Kavya Chowdhury",
+    "roll": "COM-05",
+    "departmentId": "d_cs",
+    "department": "Computer Science",
+    "section": "B",
+    "dob": "2008-08-08",
+    "subjects": [
+      "Physics",
+      "Biology",
+      "English",
+      "Database Systems",
+      "Computer Programming",
+      "Computer Networks"
+    ],
+    "username": "COM-05",
+    "password": "stud005"
+  },
+  {
+    "id": "s006",
+    "name": "Divya Das",
+    "roll": "ELE-01",
+    "departmentId": "d_ec",
+    "department": "Electronics",
+    "section": "A",
+    "dob": "2008-09-24",
+    "subjects": [
+      "Computer Programming",
+      "Biology",
+      "Chemistry",
+      "Signals and Systems",
+      "Engineering Drawing",
+      "Computer Networks"
+    ],
+    "username": "ELE-01",
+    "password": "stud006"
+  },
+  {
+    "id": "s007",
+    "name": "Rahul Nair",
+    "roll": "ELE-02",
+    "departmentId": "d_ec",
+    "department": "Electronics",
+    "section": "B",
+    "dob": "2008-01-06",
+    "subjects": [
+      "English",
+      "Computer Networks",
+      "Biology",
+      "Digital Electronics",
+      "Engineering Drawing",
+      "Computer Programming"
+    ],
+    "username": "ELE-02",
+    "password": "stud007"
+  },
+  {
+    "id": "s008",
+    "name": "Deepa Singh",
+    "roll": "ELE-03",
+    "departmentId": "d_ec",
+    "department": "Electronics",
+    "section": "C",
+    "dob": "2008-10-05",
+    "subjects": [
+      "English",
+      "Thermodynamics",
+      "Physics",
+      "Signals and Systems",
+      "Database Systems",
+      "Mathematics"
+    ],
+    "username": "ELE-03",
+    "password": "stud008"
+  },
+  {
+    "id": "s009",
+    "name": "Aarav Verma",
+    "roll": "ELE-04",
+    "departmentId": "d_ec",
+    "department": "Electronics",
+    "section": "A",
+    "dob": "2008-03-16",
+    "subjects": [
+      "Chemistry",
+      "Physics",
+      "Thermodynamics",
+      "Computer Networks",
+      "English",
+      "Computer Programming"
+    ],
+    "username": "ELE-04",
+    "password": "stud009"
+  },
+  {
+    "id": "s010",
+    "name": "Karthik Desai",
+    "roll": "ELE-05",
+    "departmentId": "d_ec",
+    "department": "Electronics",
+    "section": "B",
+    "dob": "2008-04-11",
+    "subjects": [
+      "Computer Programming",
+      "Database Systems",
+      "Computer Networks",
+      "English",
+      "Thermodynamics",
+      "Biology"
+    ],
+    "username": "ELE-05",
+    "password": "stud010"
+  },
+  {
+    "id": "s011",
+    "name": "Rohan Bose",
+    "roll": "MEC-01",
+    "departmentId": "d_me",
+    "department": "Mechanical",
+    "section": "A",
+    "dob": "2008-06-27",
+    "subjects": [
+      "Signals and Systems",
+      "Strength of Materials",
+      "Mechanics",
+      "English",
+      "Thermodynamics",
+      "Physics"
+    ],
+    "username": "MEC-01",
+    "password": "stud011"
+  },
+  {
+    "id": "s012",
+    "name": "Siddharth Joshi",
+    "roll": "MEC-02",
+    "departmentId": "d_me",
+    "department": "Mechanical",
+    "section": "B",
+    "dob": "2008-04-25",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Signals and Systems",
+      "Engineering Drawing",
+      "Computer Programming",
+      "Database Systems"
+    ],
+    "username": "MEC-02",
+    "password": "stud012"
+  },
+  {
+    "id": "s013",
+    "name": "Ananya Reddy",
+    "roll": "MEC-03",
+    "departmentId": "d_me",
+    "department": "Mechanical",
+    "section": "C",
+    "dob": "2008-08-05",
+    "subjects": [
+      "Biology",
+      "Computer Networks",
+      "Signals and Systems",
+      "Engineering Drawing",
+      "Chemistry",
+      "Thermodynamics"
+    ],
+    "username": "MEC-03",
+    "password": "stud013"
+  },
+  {
+    "id": "s014",
+    "name": "Lakshmi Sharma",
+    "roll": "MEC-04",
+    "departmentId": "d_me",
+    "department": "Mechanical",
+    "section": "A",
+    "dob": "2008-04-20",
+    "subjects": [
+      "Engineering Drawing",
+      "Physics",
+      "Database Systems",
+      "Mathematics",
+      "Digital Electronics",
+      "Mechanics"
+    ],
+    "username": "MEC-04",
+    "password": "stud014"
+  },
+  {
+    "id": "s015",
+    "name": "Kavya Patel",
+    "roll": "MEC-05",
+    "departmentId": "d_me",
+    "department": "Mechanical",
+    "section": "B",
+    "dob": "2008-02-11",
+    "subjects": [
+      "Signals and Systems",
+      "Chemistry",
+      "Computer Networks",
+      "Digital Electronics",
+      "Physics",
+      "Mechanics"
+    ],
+    "username": "MEC-05",
+    "password": "stud015"
+  },
+  {
+    "id": "s016",
+    "name": "Divya Kumar",
+    "roll": "CIV-01",
+    "departmentId": "d_cv",
+    "department": "Civil",
+    "section": "A",
+    "dob": "2008-03-26",
+    "subjects": [
+      "Database Systems",
+      "Computer Networks",
+      "Strength of Materials",
+      "Thermodynamics",
+      "Engineering Drawing",
+      "Geology"
+    ],
+    "username": "CIV-01",
+    "password": "stud016"
+  },
+  {
+    "id": "s017",
+    "name": "Rahul Iyer",
+    "roll": "CIV-02",
+    "departmentId": "d_cv",
+    "department": "Civil",
+    "section": "B",
+    "dob": "2008-05-03",
+    "subjects": [
+      "Thermodynamics",
+      "Digital Electronics",
+      "Computer Programming",
+      "Computer Networks",
+      "Strength of Materials",
+      "Chemistry"
+    ],
+    "username": "CIV-02",
+    "password": "stud017"
+  },
+  {
+    "id": "s018",
+    "name": "Deepa Menon",
+    "roll": "CIV-03",
+    "departmentId": "d_cv",
+    "department": "Civil",
+    "section": "C",
+    "dob": "2008-07-04",
+    "subjects": [
+      "English",
+      "Mathematics",
+      "Digital Electronics",
+      "Environment Studies",
+      "Thermodynamics",
+      "Strength of Materials"
+    ],
+    "username": "CIV-03",
+    "password": "stud018"
+  },
+  {
+    "id": "s019",
+    "name": "Aarav Gupta",
+    "roll": "CIV-04",
+    "departmentId": "d_cv",
+    "department": "Civil",
+    "section": "A",
+    "dob": "2008-08-15",
+    "subjects": [
+      "Chemistry",
+      "Geology",
+      "Environment Studies",
+      "Biology",
+      "Strength of Materials",
+      "Signals and Systems"
+    ],
+    "username": "CIV-04",
+    "password": "stud019"
+  },
+  {
+    "id": "s020",
+    "name": "Karthik Chowdhury",
+    "roll": "CIV-05",
+    "departmentId": "d_cv",
+    "department": "Civil",
+    "section": "B",
+    "dob": "2008-10-27",
+    "subjects": [
+      "Geology",
+      "Thermodynamics",
+      "Computer Networks",
+      "Engineering Drawing",
+      "Chemistry",
+      "Mathematics"
+    ],
+    "username": "CIV-05",
+    "password": "stud020"
+  }
+]

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign in</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="login-page">
+  <div class="login-card">
+    <h2>Sign in</h2>
+    <form id="loginForm">
+      <label for="role">Role</label>
+      <select id="role">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+      </select>
+
+      <label for="identifier">Student Roll or Teacher ID / Email</label>
+      <input type="text" id="identifier" placeholder="e.g., s001 or t001" />
+
+      <label for="password">Password (demo)</label>
+      <input type="password" id="password" placeholder="demo password" />
+
+      <button type="submit" disabled>Sign in</button>
+      <p id="msg" class="muted"></p>
+    </form>
+  </div>
+
+  <!-- Link to external JS -->
+  <script type="module" src="/js/login.js"></script>
+</body>
+</html>

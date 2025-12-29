@@ -1,0 +1,3414 @@
+{
+  "assessments": [
+    {
+      "id": "a001",
+      "name": "Database Systems Quiz",
+      "date": "2025-06-02",
+      "subject": "Database Systems",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a002",
+      "name": "Database Systems Unit Test",
+      "date": "2025-06-15",
+      "subject": "Database Systems",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a003",
+      "name": "Database Systems Term Exam",
+      "date": "2025-06-29",
+      "subject": "Database Systems",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a004",
+      "name": "Biology Quiz",
+      "date": "2025-06-05",
+      "subject": "Biology",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a005",
+      "name": "Biology Unit Test",
+      "date": "2025-06-17",
+      "subject": "Biology",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a006",
+      "name": "Biology Term Exam",
+      "date": "2025-07-03",
+      "subject": "Biology",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a007",
+      "name": "Engineering Drawing Quiz",
+      "date": "2025-06-03",
+      "subject": "Engineering Drawing",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a008",
+      "name": "Engineering Drawing Unit Test",
+      "date": "2025-06-20",
+      "subject": "Engineering Drawing",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a009",
+      "name": "Engineering Drawing Term Exam",
+      "date": "2025-07-04",
+      "subject": "Engineering Drawing",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a010",
+      "name": "Computer Networks Quiz",
+      "date": "2025-06-05",
+      "subject": "Computer Networks",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a011",
+      "name": "Computer Networks Unit Test",
+      "date": "2025-06-19",
+      "subject": "Computer Networks",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a012",
+      "name": "Computer Networks Term Exam",
+      "date": "2025-07-02",
+      "subject": "Computer Networks",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a013",
+      "name": "Mathematics Quiz",
+      "date": "2025-06-07",
+      "subject": "Mathematics",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a014",
+      "name": "Mathematics Unit Test",
+      "date": "2025-06-18",
+      "subject": "Mathematics",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a015",
+      "name": "Mathematics Term Exam",
+      "date": "2025-06-30",
+      "subject": "Mathematics",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a016",
+      "name": "Signals and Systems Quiz",
+      "date": "2025-06-06",
+      "subject": "Signals and Systems",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a017",
+      "name": "Signals and Systems Unit Test",
+      "date": "2025-06-18",
+      "subject": "Signals and Systems",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a018",
+      "name": "Signals and Systems Term Exam",
+      "date": "2025-06-30",
+      "subject": "Signals and Systems",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a019",
+      "name": "Physics Quiz",
+      "date": "2025-06-01",
+      "subject": "Physics",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a020",
+      "name": "Physics Unit Test",
+      "date": "2025-06-20",
+      "subject": "Physics",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a021",
+      "name": "Physics Term Exam",
+      "date": "2025-07-04",
+      "subject": "Physics",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a022",
+      "name": "English Quiz",
+      "date": "2025-06-05",
+      "subject": "English",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a023",
+      "name": "English Unit Test",
+      "date": "2025-06-19",
+      "subject": "English",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a024",
+      "name": "English Term Exam",
+      "date": "2025-06-29",
+      "subject": "English",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a025",
+      "name": "Digital Electronics Quiz",
+      "date": "2025-06-07",
+      "subject": "Digital Electronics",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a026",
+      "name": "Digital Electronics Unit Test",
+      "date": "2025-06-19",
+      "subject": "Digital Electronics",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a027",
+      "name": "Digital Electronics Term Exam",
+      "date": "2025-06-29",
+      "subject": "Digital Electronics",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a028",
+      "name": "Thermodynamics Quiz",
+      "date": "2025-06-03",
+      "subject": "Thermodynamics",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a029",
+      "name": "Thermodynamics Unit Test",
+      "date": "2025-06-15",
+      "subject": "Thermodynamics",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a030",
+      "name": "Thermodynamics Term Exam",
+      "date": "2025-07-03",
+      "subject": "Thermodynamics",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a031",
+      "name": "Computer Programming Quiz",
+      "date": "2025-06-02",
+      "subject": "Computer Programming",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a032",
+      "name": "Computer Programming Unit Test",
+      "date": "2025-06-20",
+      "subject": "Computer Programming",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a033",
+      "name": "Computer Programming Term Exam",
+      "date": "2025-07-03",
+      "subject": "Computer Programming",
+      "maxMarks": 100,
+      "type": "term exam"
+    },
+    {
+      "id": "a034",
+      "name": "Chemistry Quiz",
+      "date": "2025-06-03",
+      "subject": "Chemistry",
+      "maxMarks": 20,
+      "type": "quiz"
+    },
+    {
+      "id": "a035",
+      "name": "Chemistry Unit Test",
+      "date": "2025-06-17",
+      "subject": "Chemistry",
+      "maxMarks": 50,
+      "type": "unit test"
+    },
+    {
+      "id": "a036",
+      "name": "Chemistry Term Exam",
+      "date": "2025-07-04",
+      "subject": "Chemistry",
+      "maxMarks": 100,
+      "type": "term exam"
+    }
+  ],
+  "scores": [
+    {
+      "id": "r001",
+      "studentId": "s001",
+      "assessmentId": "a013",
+      "subject": "Mathematics",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r002",
+      "studentId": "s001",
+      "assessmentId": "a014",
+      "subject": "Mathematics",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r003",
+      "studentId": "s001",
+      "assessmentId": "a015",
+      "subject": "Mathematics",
+      "marksObtained": 70,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r004",
+      "studentId": "s001",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 18,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r005",
+      "studentId": "s001",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r006",
+      "studentId": "s001",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 88,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r007",
+      "studentId": "s001",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r008",
+      "studentId": "s001",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 26,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r009",
+      "studentId": "s001",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 55,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r010",
+      "studentId": "s001",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r011",
+      "studentId": "s001",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r012",
+      "studentId": "s001",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 65,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r013",
+      "studentId": "s001",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r014",
+      "studentId": "s001",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r015",
+      "studentId": "s001",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 68,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r016",
+      "studentId": "s001",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r017",
+      "studentId": "s001",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r018",
+      "studentId": "s001",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 61,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r019",
+      "studentId": "s002",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r020",
+      "studentId": "s002",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r021",
+      "studentId": "s002",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r022",
+      "studentId": "s002",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r023",
+      "studentId": "s002",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r024",
+      "studentId": "s002",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r025",
+      "studentId": "s002",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r026",
+      "studentId": "s002",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r027",
+      "studentId": "s002",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 66,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r028",
+      "studentId": "s002",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r029",
+      "studentId": "s002",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r030",
+      "studentId": "s002",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 50,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r031",
+      "studentId": "s002",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r032",
+      "studentId": "s002",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 43,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r033",
+      "studentId": "s002",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 77,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r034",
+      "studentId": "s003",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r035",
+      "studentId": "s003",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 24,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r036",
+      "studentId": "s003",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 58,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r037",
+      "studentId": "s003",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r038",
+      "studentId": "s003",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r039",
+      "studentId": "s003",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 78,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r040",
+      "studentId": "s003",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r041",
+      "studentId": "s003",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r042",
+      "studentId": "s003",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 47,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r043",
+      "studentId": "s003",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r044",
+      "studentId": "s003",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r045",
+      "studentId": "s003",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 75,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r046",
+      "studentId": "s003",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r047",
+      "studentId": "s003",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 31,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r048",
+      "studentId": "s003",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 74,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r049",
+      "studentId": "s004",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r050",
+      "studentId": "s004",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 39,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r051",
+      "studentId": "s004",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 66,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r052",
+      "studentId": "s004",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r053",
+      "studentId": "s004",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 24,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r054",
+      "studentId": "s004",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 51,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r055",
+      "studentId": "s004",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r056",
+      "studentId": "s004",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r057",
+      "studentId": "s004",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 63,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r058",
+      "studentId": "s004",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r059",
+      "studentId": "s004",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r060",
+      "studentId": "s004",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 78,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r061",
+      "studentId": "s004",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r062",
+      "studentId": "s004",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r063",
+      "studentId": "s004",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 58,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r064",
+      "studentId": "s005",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r065",
+      "studentId": "s005",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r066",
+      "studentId": "s005",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 70,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r067",
+      "studentId": "s005",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 11,
+      "maxMarks": 20,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r068",
+      "studentId": "s005",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r069",
+      "studentId": "s005",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 76,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r070",
+      "studentId": "s005",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r071",
+      "studentId": "s005",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r072",
+      "studentId": "s005",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 63,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r073",
+      "studentId": "s005",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r074",
+      "studentId": "s005",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 31,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r075",
+      "studentId": "s005",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 66,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r076",
+      "studentId": "s005",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r077",
+      "studentId": "s005",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 32,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r078",
+      "studentId": "s005",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 69,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r079",
+      "studentId": "s005",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r080",
+      "studentId": "s005",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r081",
+      "studentId": "s005",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 68,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r082",
+      "studentId": "s006",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r083",
+      "studentId": "s006",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 32,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r084",
+      "studentId": "s006",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r085",
+      "studentId": "s006",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r086",
+      "studentId": "s006",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r087",
+      "studentId": "s006",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r088",
+      "studentId": "s006",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r089",
+      "studentId": "s006",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r090",
+      "studentId": "s006",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 63,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r091",
+      "studentId": "s006",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r092",
+      "studentId": "s006",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 25,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r093",
+      "studentId": "s006",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 52,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r094",
+      "studentId": "s006",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r095",
+      "studentId": "s006",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r096",
+      "studentId": "s006",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 62,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r097",
+      "studentId": "s006",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r098",
+      "studentId": "s006",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 31,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r099",
+      "studentId": "s006",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 56,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r100",
+      "studentId": "s007",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 17,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r101",
+      "studentId": "s007",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r102",
+      "studentId": "s007",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 75,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r103",
+      "studentId": "s007",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r104",
+      "studentId": "s007",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 31,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r105",
+      "studentId": "s007",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 50,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r106",
+      "studentId": "s007",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r107",
+      "studentId": "s007",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r108",
+      "studentId": "s007",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 75,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r109",
+      "studentId": "s007",
+      "assessmentId": "a025",
+      "subject": "Digital Electronics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r110",
+      "studentId": "s007",
+      "assessmentId": "a026",
+      "subject": "Digital Electronics",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r111",
+      "studentId": "s007",
+      "assessmentId": "a027",
+      "subject": "Digital Electronics",
+      "marksObtained": 76,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r112",
+      "studentId": "s007",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 7,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r113",
+      "studentId": "s007",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r114",
+      "studentId": "s007",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 57,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r115",
+      "studentId": "s007",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r116",
+      "studentId": "s007",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r117",
+      "studentId": "s007",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 70,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r118",
+      "studentId": "s008",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r119",
+      "studentId": "s008",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 42,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r120",
+      "studentId": "s008",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 73,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r121",
+      "studentId": "s008",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r122",
+      "studentId": "s008",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r123",
+      "studentId": "s008",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 48,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r124",
+      "studentId": "s008",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r125",
+      "studentId": "s008",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r126",
+      "studentId": "s008",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 62,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r127",
+      "studentId": "s008",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r128",
+      "studentId": "s008",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 31,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r129",
+      "studentId": "s008",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 63,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r130",
+      "studentId": "s008",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r131",
+      "studentId": "s008",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r132",
+      "studentId": "s008",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 78,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r133",
+      "studentId": "s008",
+      "assessmentId": "a013",
+      "subject": "Mathematics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r134",
+      "studentId": "s008",
+      "assessmentId": "a014",
+      "subject": "Mathematics",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r135",
+      "studentId": "s008",
+      "assessmentId": "a015",
+      "subject": "Mathematics",
+      "marksObtained": 74,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r136",
+      "studentId": "s009",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r137",
+      "studentId": "s009",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 19,
+      "maxMarks": 50,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r138",
+      "studentId": "s009",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 57,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r139",
+      "studentId": "s009",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r140",
+      "studentId": "s009",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r141",
+      "studentId": "s009",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r142",
+      "studentId": "s009",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 11,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r143",
+      "studentId": "s009",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r144",
+      "studentId": "s009",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r145",
+      "studentId": "s009",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r146",
+      "studentId": "s009",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r147",
+      "studentId": "s009",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 59,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r148",
+      "studentId": "s009",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 18,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r149",
+      "studentId": "s009",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r150",
+      "studentId": "s009",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r151",
+      "studentId": "s009",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r152",
+      "studentId": "s009",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 26,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r153",
+      "studentId": "s009",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r154",
+      "studentId": "s010",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r155",
+      "studentId": "s010",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r156",
+      "studentId": "s010",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 71,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r157",
+      "studentId": "s010",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r158",
+      "studentId": "s010",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r159",
+      "studentId": "s010",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 79,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r160",
+      "studentId": "s010",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r161",
+      "studentId": "s010",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r162",
+      "studentId": "s010",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 50,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r163",
+      "studentId": "s010",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 16,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r164",
+      "studentId": "s010",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r165",
+      "studentId": "s010",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 78,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r166",
+      "studentId": "s010",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r167",
+      "studentId": "s010",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r168",
+      "studentId": "s010",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 64,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r169",
+      "studentId": "s010",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r170",
+      "studentId": "s010",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 39,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r171",
+      "studentId": "s010",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 69,
+      "maxMarks": 100,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r172",
+      "studentId": "s011",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r173",
+      "studentId": "s011",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 26,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r174",
+      "studentId": "s011",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 47,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r175",
+      "studentId": "s011",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r176",
+      "studentId": "s011",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 43,
+      "maxMarks": 50,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r177",
+      "studentId": "s011",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 79,
+      "maxMarks": 100,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r178",
+      "studentId": "s011",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 11,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r179",
+      "studentId": "s011",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r180",
+      "studentId": "s011",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 84,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r181",
+      "studentId": "s011",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r182",
+      "studentId": "s011",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r183",
+      "studentId": "s011",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 65,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r184",
+      "studentId": "s012",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r185",
+      "studentId": "s012",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r186",
+      "studentId": "s012",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 63,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r187",
+      "studentId": "s012",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 16,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r188",
+      "studentId": "s012",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r189",
+      "studentId": "s012",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 62,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r190",
+      "studentId": "s012",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r191",
+      "studentId": "s012",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 27,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r192",
+      "studentId": "s012",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 57,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r193",
+      "studentId": "s012",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r194",
+      "studentId": "s012",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r195",
+      "studentId": "s012",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 62,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r196",
+      "studentId": "s012",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r197",
+      "studentId": "s012",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r198",
+      "studentId": "s012",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 58,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r199",
+      "studentId": "s012",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t001",
+      "remarks": ""
+    },
+    {
+      "id": "r200",
+      "studentId": "s012",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r201",
+      "studentId": "s012",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 77,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r202",
+      "studentId": "s013",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 16,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r203",
+      "studentId": "s013",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r204",
+      "studentId": "s013",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 66,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r205",
+      "studentId": "s013",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r206",
+      "studentId": "s013",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 26,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r207",
+      "studentId": "s013",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 52,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r208",
+      "studentId": "s013",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r209",
+      "studentId": "s013",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 25,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r210",
+      "studentId": "s013",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 57,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r211",
+      "studentId": "s013",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r212",
+      "studentId": "s013",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r213",
+      "studentId": "s013",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 77,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r214",
+      "studentId": "s013",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r215",
+      "studentId": "s013",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r216",
+      "studentId": "s013",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 71,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r217",
+      "studentId": "s013",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r218",
+      "studentId": "s013",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 26,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r219",
+      "studentId": "s013",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 50,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r220",
+      "studentId": "s014",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 16,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r221",
+      "studentId": "s014",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r222",
+      "studentId": "s014",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r223",
+      "studentId": "s014",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 16,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r224",
+      "studentId": "s014",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r225",
+      "studentId": "s014",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 59,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r226",
+      "studentId": "s014",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r227",
+      "studentId": "s014",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 37,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r228",
+      "studentId": "s014",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 73,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r229",
+      "studentId": "s014",
+      "assessmentId": "a013",
+      "subject": "Mathematics",
+      "marksObtained": 19,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r230",
+      "studentId": "s014",
+      "assessmentId": "a014",
+      "subject": "Mathematics",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r231",
+      "studentId": "s014",
+      "assessmentId": "a015",
+      "subject": "Mathematics",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r232",
+      "studentId": "s014",
+      "assessmentId": "a025",
+      "subject": "Digital Electronics",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r233",
+      "studentId": "s014",
+      "assessmentId": "a026",
+      "subject": "Digital Electronics",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r234",
+      "studentId": "s014",
+      "assessmentId": "a027",
+      "subject": "Digital Electronics",
+      "marksObtained": 75,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r235",
+      "studentId": "s015",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 6,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r236",
+      "studentId": "s015",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 24,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r237",
+      "studentId": "s015",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 59,
+      "maxMarks": 100,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r238",
+      "studentId": "s015",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r239",
+      "studentId": "s015",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r240",
+      "studentId": "s015",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 59,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r241",
+      "studentId": "s015",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r242",
+      "studentId": "s015",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 28,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r243",
+      "studentId": "s015",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 68,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r244",
+      "studentId": "s015",
+      "assessmentId": "a025",
+      "subject": "Digital Electronics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r245",
+      "studentId": "s015",
+      "assessmentId": "a026",
+      "subject": "Digital Electronics",
+      "marksObtained": 39,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r246",
+      "studentId": "s015",
+      "assessmentId": "a027",
+      "subject": "Digital Electronics",
+      "marksObtained": 67,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r247",
+      "studentId": "s015",
+      "assessmentId": "a019",
+      "subject": "Physics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r248",
+      "studentId": "s015",
+      "assessmentId": "a020",
+      "subject": "Physics",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r249",
+      "studentId": "s015",
+      "assessmentId": "a021",
+      "subject": "Physics",
+      "marksObtained": 64,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r250",
+      "studentId": "s016",
+      "assessmentId": "a001",
+      "subject": "Database Systems",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r251",
+      "studentId": "s016",
+      "assessmentId": "a002",
+      "subject": "Database Systems",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r252",
+      "studentId": "s016",
+      "assessmentId": "a003",
+      "subject": "Database Systems",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r253",
+      "studentId": "s016",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r254",
+      "studentId": "s016",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 25,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r255",
+      "studentId": "s016",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 56,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r256",
+      "studentId": "s016",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r257",
+      "studentId": "s016",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 25,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r258",
+      "studentId": "s016",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 50,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r259",
+      "studentId": "s016",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r260",
+      "studentId": "s016",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r261",
+      "studentId": "s016",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 53,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r262",
+      "studentId": "s017",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 11,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r263",
+      "studentId": "s017",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r264",
+      "studentId": "s017",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r265",
+      "studentId": "s017",
+      "assessmentId": "a025",
+      "subject": "Digital Electronics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r266",
+      "studentId": "s017",
+      "assessmentId": "a026",
+      "subject": "Digital Electronics",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r267",
+      "studentId": "s017",
+      "assessmentId": "a027",
+      "subject": "Digital Electronics",
+      "marksObtained": 58,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r268",
+      "studentId": "s017",
+      "assessmentId": "a031",
+      "subject": "Computer Programming",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r269",
+      "studentId": "s017",
+      "assessmentId": "a032",
+      "subject": "Computer Programming",
+      "marksObtained": 39,
+      "maxMarks": 50,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r270",
+      "studentId": "s017",
+      "assessmentId": "a033",
+      "subject": "Computer Programming",
+      "marksObtained": 62,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r271",
+      "studentId": "s017",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r272",
+      "studentId": "s017",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r273",
+      "studentId": "s017",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 68,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r274",
+      "studentId": "s017",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r275",
+      "studentId": "s017",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 36,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r276",
+      "studentId": "s017",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 58,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r277",
+      "studentId": "s018",
+      "assessmentId": "a022",
+      "subject": "English",
+      "marksObtained": 15,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r278",
+      "studentId": "s018",
+      "assessmentId": "a023",
+      "subject": "English",
+      "marksObtained": 35,
+      "maxMarks": 50,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r279",
+      "studentId": "s018",
+      "assessmentId": "a024",
+      "subject": "English",
+      "marksObtained": 78,
+      "maxMarks": 100,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r280",
+      "studentId": "s018",
+      "assessmentId": "a013",
+      "subject": "Mathematics",
+      "marksObtained": 14,
+      "maxMarks": 20,
+      "teacherId": "t004",
+      "remarks": ""
+    },
+    {
+      "id": "r281",
+      "studentId": "s018",
+      "assessmentId": "a014",
+      "subject": "Mathematics",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r282",
+      "studentId": "s018",
+      "assessmentId": "a015",
+      "subject": "Mathematics",
+      "marksObtained": 58,
+      "maxMarks": 100,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r283",
+      "studentId": "s018",
+      "assessmentId": "a025",
+      "subject": "Digital Electronics",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r284",
+      "studentId": "s018",
+      "assessmentId": "a026",
+      "subject": "Digital Electronics",
+      "marksObtained": 34,
+      "maxMarks": 50,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r285",
+      "studentId": "s018",
+      "assessmentId": "a027",
+      "subject": "Digital Electronics",
+      "marksObtained": 60,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r286",
+      "studentId": "s018",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 11,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r287",
+      "studentId": "s018",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 32,
+      "maxMarks": 50,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r288",
+      "studentId": "s018",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 48,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r289",
+      "studentId": "s019",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 18,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r290",
+      "studentId": "s019",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 32,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r291",
+      "studentId": "s019",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 68,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r292",
+      "studentId": "s019",
+      "assessmentId": "a004",
+      "subject": "Biology",
+      "marksObtained": 10,
+      "maxMarks": 20,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r293",
+      "studentId": "s019",
+      "assessmentId": "a005",
+      "subject": "Biology",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r294",
+      "studentId": "s019",
+      "assessmentId": "a006",
+      "subject": "Biology",
+      "marksObtained": 59,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r295",
+      "studentId": "s019",
+      "assessmentId": "a016",
+      "subject": "Signals and Systems",
+      "marksObtained": 7,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r296",
+      "studentId": "s019",
+      "assessmentId": "a017",
+      "subject": "Signals and Systems",
+      "marksObtained": 24,
+      "maxMarks": 50,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r297",
+      "studentId": "s019",
+      "assessmentId": "a018",
+      "subject": "Signals and Systems",
+      "marksObtained": 69,
+      "maxMarks": 100,
+      "teacherId": "t009",
+      "remarks": ""
+    },
+    {
+      "id": "r298",
+      "studentId": "s020",
+      "assessmentId": "a028",
+      "subject": "Thermodynamics",
+      "marksObtained": 11,
+      "maxMarks": 20,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r299",
+      "studentId": "s020",
+      "assessmentId": "a029",
+      "subject": "Thermodynamics",
+      "marksObtained": 29,
+      "maxMarks": 50,
+      "teacherId": "t002",
+      "remarks": ""
+    },
+    {
+      "id": "r300",
+      "studentId": "s020",
+      "assessmentId": "a030",
+      "subject": "Thermodynamics",
+      "marksObtained": 54,
+      "maxMarks": 100,
+      "teacherId": "t005",
+      "remarks": ""
+    },
+    {
+      "id": "r301",
+      "studentId": "s020",
+      "assessmentId": "a010",
+      "subject": "Computer Networks",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t010",
+      "remarks": ""
+    },
+    {
+      "id": "r302",
+      "studentId": "s020",
+      "assessmentId": "a011",
+      "subject": "Computer Networks",
+      "marksObtained": 32,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r303",
+      "studentId": "s020",
+      "assessmentId": "a012",
+      "subject": "Computer Networks",
+      "marksObtained": 49,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r304",
+      "studentId": "s020",
+      "assessmentId": "a007",
+      "subject": "Engineering Drawing",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t003",
+      "remarks": ""
+    },
+    {
+      "id": "r305",
+      "studentId": "s020",
+      "assessmentId": "a008",
+      "subject": "Engineering Drawing",
+      "marksObtained": 33,
+      "maxMarks": 50,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r306",
+      "studentId": "s020",
+      "assessmentId": "a009",
+      "subject": "Engineering Drawing",
+      "marksObtained": 66,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    },
+    {
+      "id": "r307",
+      "studentId": "s020",
+      "assessmentId": "a034",
+      "subject": "Chemistry",
+      "marksObtained": 12,
+      "maxMarks": 20,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r308",
+      "studentId": "s020",
+      "assessmentId": "a035",
+      "subject": "Chemistry",
+      "marksObtained": 30,
+      "maxMarks": 50,
+      "teacherId": "t007",
+      "remarks": ""
+    },
+    {
+      "id": "r309",
+      "studentId": "s020",
+      "assessmentId": "a036",
+      "subject": "Chemistry",
+      "marksObtained": 68,
+      "maxMarks": 100,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r310",
+      "studentId": "s020",
+      "assessmentId": "a013",
+      "subject": "Mathematics",
+      "marksObtained": 13,
+      "maxMarks": 20,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r311",
+      "studentId": "s020",
+      "assessmentId": "a014",
+      "subject": "Mathematics",
+      "marksObtained": 38,
+      "maxMarks": 50,
+      "teacherId": "t006",
+      "remarks": ""
+    },
+    {
+      "id": "r312",
+      "studentId": "s020",
+      "assessmentId": "a015",
+      "subject": "Mathematics",
+      "marksObtained": 66,
+      "maxMarks": 100,
+      "teacherId": "t008",
+      "remarks": ""
+    }
+  ]
+}

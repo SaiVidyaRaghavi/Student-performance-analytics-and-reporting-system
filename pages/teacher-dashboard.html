@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h2 id="teacherName">Teacher</h2>
+      <div id="teacherMeta" class="muted"></div>
+    </div>
+    <div>
+      <button id="logoutBtn" class="btn small">Logout</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card grid-2">
+      <div>
+        <h3>Classes & Subjects</h3>
+        <div id="classInfo"></div>
+      </div>
+      <div>
+        <h3>Assessment Distribution</h3>
+        <canvas id="assessChart" height="140"></canvas>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Students You Teach</h3>
+      <div class="table-actions">
+        <label>Filter by subject:
+          <select id="teacherSubjectFilter"><option value="">All</option></select>
+        </label>
+        <button id="exportTeacherCsv" class="btn small">Export CSV</button>
+      </div>
+      <table id="studentsTable" class="data-table">
+        <thead>
+          <tr>
+            <th>Roll</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Max</th>
+            <th>Remark</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script type="module" src="/js/charts.js"></script>
+  <script type="module" src="/js/teacher.js"></script>
+</body>
+</html>

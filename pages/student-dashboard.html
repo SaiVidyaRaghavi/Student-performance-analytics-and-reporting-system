@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div>
+    <h2 id="studentName">Student</h2>
+    <div id="studentMeta" class="muted"></div>
+  </div>
+  <button id="logoutBtn" class="btn small">Logout</button>
+</header>
+
+<main class="container">
+
+  <!-- Summary + Chart -->
+  <section class="card grid-2">
+    <div>
+      <h3>Summary</h3>
+      <div id="summary"></div>
+    </div>
+    <div>
+      <h3>Progress</h3>
+      <canvas id="progressChart" height="140"></canvas>
+    </div>
+  </section>
+
+  <!-- Scores table -->
+  <section class="card">
+    <h3>Your Assessments</h3>
+
+    <table class="data-table" id="studentTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Assessment</th>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Max</th>
+          <th>Teacher Remark</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+</main>
+
+<script type="module" src="/js/charts.js"></script>
+<script type="module" src="/js/student.js"></script>
+</body>
+</html>
