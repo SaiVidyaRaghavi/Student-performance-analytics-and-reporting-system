@@ -5,7 +5,7 @@
   --bg: #f4f7fb;
   --card: #ffffff;
   --primary: #221f7b;       /* darker blue */
-  --primary-light: #477cee; /* bright blue for accents */
+  --primary-light: #5075c5; /* bright blue for accents */
   --accent: #22c55e;
   --danger: #ef4444;
   --text: #1f2937;
@@ -124,7 +124,7 @@ body.login-page {
 .header {
   background: linear-gradient(135deg, var(--primary-light), var(--primary));
   color: white;
-  padding: 1.2rem 2rem;
+  padding: 2.5rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
