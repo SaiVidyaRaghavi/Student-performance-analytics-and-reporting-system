@@ -1,20 +1,14 @@
-// student.js (ES module) — complete version with teacher remark editing and role-aware export
+// student.js — updated to reflect teacher remarks in real-time and exports
 import { renderLineChart } from './charts.js';
 import { csvEscape, downloadCsv } from './exporter.js';
 
 // --- Session & Role Checks ---
 const role = sessionStorage.getItem('role');
-if (!role && !sessionStorage.getItem('studentId')) {
-  location.href = '/pages/login.html';
-}
-
 const studentId = sessionStorage.getItem('studentId');
-if (!studentId) location.href = '/pages/login.html';
+if (!role || !studentId) location.href = '/pages/login.html';
 
 // --- UI Setup ---
-document.getElementById('studentName').textContent =
-  sessionStorage.getItem('studentName') || 'Student';
-
+document.getElementById('studentName').textContent = sessionStorage.getItem('studentName') || 'Student';
 document.getElementById('logoutBtn').addEventListener('click', () => {
   sessionStorage.clear();
   location.href = '/pages/login.html';
@@ -50,30 +44,23 @@ let currentTableRows = [];
 async function init() {
   appData = await loadData();
   const student = appData.students.find(s => s.id === studentId);
-  if (!student) {
-    sessionStorage.clear();
-    location.href = '/pages/login.html';
-    return;
-  }
+  if (!student) { sessionStorage.clear(); location.href = '/pages/login.html'; return; }
 
   // Always show all subjects the student is registered in
   const allowedSubjects = [...student.subjects];
 
-  // Metadata (do not filter subjects if a teacher is viewing)
+  // Metadata (teacher view)
   const viewedByTeacher = sessionStorage.getItem('viewedByTeacher');
   if (viewedByTeacher) {
     const teacherObj = appData.teachers.find(t => t.id === viewedByTeacher);
-    if (teacherObj) {
-      document.getElementById('studentMeta').textContent =
-        `${student.roll} • ${student.department} • Section ${student.section} • Viewed by ${teacherObj.name}`;
-    }
+    if (teacherObj) document.getElementById('studentMeta').textContent =
+      `${student.roll} • ${student.department} • Section ${student.section} • Viewed by ${teacherObj.name}`;
   } else {
     document.getElementById('studentMeta').textContent =
       `${student.roll} • ${student.department} • Section ${student.section}`;
   }
 
-  document.getElementById('studentName').textContent =
-    sessionStorage.getItem('studentName') || student.name;
+  document.getElementById('studentName').textContent = sessionStorage.getItem('studentName') || student.name;
 
   // --- Scores (include teacher name and assessment details) ---
   studentScores = appData.scores
@@ -81,12 +68,18 @@ async function init() {
     .map(r => {
       const a = appData.assessments.find(x => x.id === r.assessmentId) || {};
       const teacher = appData.teachers.find(t => t.id === r.teacherId) || {};
+
+      // --- Override remarks if teacher updated in sessionStorage ---
+      const remarkKey = `score_remark_${r.studentId}_${r.assessmentId}`;
+      const updatedRemark = sessionStorage.getItem(remarkKey) ?? r.remarks ?? '';
+
       return {
         ...r,
         date: a.date || '',
         assessment: a.name || '',
         maxMarks: a.maxMarks || r.maxMarks || 0,
-        teacherName: teacher.name || ''
+        teacherName: teacher.name || '',
+        remarks: updatedRemark
       };
     })
     .sort((a, b) => (new Date(a.date || 0)) - (new Date(b.date || 0)));
@@ -109,14 +102,13 @@ async function init() {
   renderTable();
   setupExports(role);
 
-  // Debug
   console.log('Loaded student:', studentId, student.name);
   console.log('Scores found:', studentScores.length);
 }
 
 // --- Table Rendering ---
 function renderTable() {
-  const tbody = document.querySelector('#studentTable tbody'); // matches your HTML
+  const tbody = document.querySelector('#studentTable tbody');
   const rows = studentScores;
   currentTableRows = rows;
 
@@ -140,29 +132,17 @@ function renderTable() {
     </tr>`;
   }).join('');
 
+  // Teacher can edit remarks inline
   if (role === 'teacher') {
     document.querySelectorAll('.remark-input').forEach(input => {
-      input.addEventListener('change', e => {
-        const scoreId = e.target.dataset.scoreid;
-        const newRemark = e.target.value;
-        updateRemark(scoreId, newRemark);
-      });
-      input.addEventListener('blur', e => {
-        const scoreId = e.target.dataset.scoreid;
-        const newRemark = e.target.value;
-        updateRemark(scoreId, newRemark);
-      });
-      input.addEventListener('keydown', e => {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          e.target.blur();
-        }
-      });
+      input.addEventListener('change', e => updateRemark(e.target.dataset.scoreid, e.target.value));
+      input.addEventListener('blur', e => updateRemark(e.target.dataset.scoreid, e.target.value));
+      input.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); e.target.blur(); } });
     });
   }
 }
 
-// --- Update Remark (in-memory) ---
+// --- Update Remark (in-memory + sessionStorage) ---
 function updateRemark(scoreId, newRemark) {
   const score = appData.scores.find(s => s.id === scoreId);
   if (score) score.remarks = newRemark;
@@ -170,18 +150,17 @@ function updateRemark(scoreId, newRemark) {
   const localScore = studentScores.find(s => s.id === scoreId);
   if (localScore) localScore.remarks = newRemark;
 
-  // Optionally show a subtle saved indicator
-  // e.g., toast or inline icon — omitted for brevity
+  // Save for teacher-student sync
+  const syncKey = `score_remark_${studentId}_${scoreId}`;
+  sessionStorage.setItem(syncKey, newRemark);
+
   console.log(`Remark updated for ${scoreId}: ${newRemark}`);
 }
 
 // --- Export Buttons Setup ---
 function setupExports(currentRole) {
-  // Export current view button (if present in DOM)
   const exportCurrentBtn = document.getElementById('exportCsv');
-  if (exportCurrentBtn) {
-    exportCurrentBtn.addEventListener('click', () => exportCurrentViewCsv());
-  }
+  if (exportCurrentBtn) exportCurrentBtn.addEventListener('click', exportCurrentViewCsv);
 
   const canExportAll = currentRole === 'student' || currentRole === 'teacher';
   if (canExportAll) {
@@ -190,18 +169,9 @@ function setupExports(currentRole) {
       const exportAllBtn = document.createElement('button');
       exportAllBtn.className = 'btn small';
       exportAllBtn.textContent = 'Export All (CSV)';
-      exportAllBtn.addEventListener('click', () => exportAllStudentsReport());
+      exportAllBtn.addEventListener('click', exportAllStudentsReport);
       targetHeader.insertAdjacentElement('afterend', exportAllBtn);
     }
-  }
-
-  // Printable report link (if present)
-  const reportLink = document.getElementById('reportLink');
-  if (reportLink) {
-    reportLink.addEventListener('click', () => {
-      sessionStorage.removeItem('viewedByTeacher');
-      location.href = '/pages/student-report.html';
-    });
   }
 }
 
@@ -217,13 +187,12 @@ function exportCurrentViewCsv() {
 }
 
 function exportAllStudentsReport() {
-  const assessments = appData.assessments;
-  const amap = new Map(assessments.map(a => [a.id, a]));
+  const amap = new Map(appData.assessments.map(a => [a.id, a]));
   const teacherMap = new Map(appData.teachers.map(t => [t.id, t.name]));
   const rows = [];
 
   if (role === 'teacher') {
-    // Teachers: export all students
+    // Teacher sees all students
     appData.students.forEach(st => {
       const scores = appData.scores.filter(r => r.studentId === st.id);
       scores.forEach(s => {
@@ -238,17 +207,14 @@ function exportAllStudentsReport() {
       });
     });
     if (!rows.length) return alert('No student scores available to export');
-    const header = ['Roll','Name','Assessment','Date','Subject','Marks','Max','Teacher','Remarks'];
-    downloadCsv(`ALL_students_report.csv`, header, rows);
-
+    downloadCsv('ALL_students_report.csv', ['Roll','Name','Assessment','Date','Subject','Marks','Max','Teacher','Remarks'], rows);
   } else {
-    // Students: export only their own marks
-    const student = appData.students.find(st => st.id === studentId);
+    // Student sees only their scores
     const scores = appData.scores.filter(r => r.studentId === studentId);
     scores.forEach(s => {
       const a = amap.get(s.assessmentId) || {};
       rows.push([
-        csvEscape(student.roll), csvEscape(student.name),
+        csvEscape(studentId), csvEscape(sessionStorage.getItem('studentName') || ''),
         csvEscape(a.name || ''), csvEscape(a.date || ''),
         csvEscape(s.subject || a.subject || ''), s.marksObtained || 0,
         s.maxMarks || a.maxMarks || 0, csvEscape(teacherMap.get(s.teacherId) || ''),
@@ -256,8 +222,7 @@ function exportAllStudentsReport() {
       ]);
     });
     if (!rows.length) return alert('No scores available to export');
-    const header = ['Roll','Name','Assessment','Date','Subject','Marks','Max','Teacher','Remarks'];
-    downloadCsv(`${studentId}_ALL.csv`, header, rows);
+    downloadCsv(`${studentId}_ALL.csv`, ['Roll','Name','Assessment','Date','Subject','Marks','Max','Teacher','Remarks'], rows);
   }
 }
 
